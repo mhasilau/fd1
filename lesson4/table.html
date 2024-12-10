@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<table
+			border="1"
+			bgcolor="red"
+			height="300"
+			width="300"
+			bordercolor="green"
+		>
+			<tr bgcolor="blue">
+				<th bgcolor="yellow">Name</th>
+				<th>Age</th>
+				<th>Country</th>
+				<th>smthng</th>
+			</tr>
+			<tr>
+				<td>Name 1</td>
+				<td>Age 1</td>
+				<td>Country 1</td>
+				<td>smthng 1</td>
+			</tr>
+			<tr>
+				<td colspan="3">Name 2</td>
+				<td>Country 2</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Name 3</td>
+				<td>Age 3</td>
+				<td>Country 3</td>
+				<td>smthng 3</td>
+			</tr>
+			<tr>
+				<td>Name 4</td>
+				<td>Age 4</td>
+				<td>Country 4</td>
+			</tr>
+			<tr>
+				<td>Name 5</td>
+				<td>Age 5</td>
+				<td>Country 5</td>
+				<td>smthng 5</td>
+			</tr>
+			<tr>
+				<td>Name 6</td>
+				<td colspan="2" rowspan="2">Age 6</td>
+				<td>Country 6</td>
+			</tr>
+			<tr>
+				<td>Name 7</td>
+				<td>smthng 7</td>
+			</tr>
+			<tr>
+				<td>Name 8</td>
+				<td>Age 8</td>
+				<td>Country 8</td>
+				<td>smthng 8</td>
+			</tr>
+		</table>
+
+		<table border="1">
+			<caption>
+				description
+			</caption>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Country</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Name 1</td>
+					<td>Age 1</td>
+					<td>Country 1</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Footer</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<table>
+			<caption>
+				Council budget (in £) 2018
+			</caption>
+			<thead>
+				<tr>
+					<th scope="col">Items</th>
+					<th scope="col">Expenditure</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Donuts</th>
+					<td>3,000</td>
+				</tr>
+				<tr>
+					<th scope="row">Stationery</th>
+					<td>18,000</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row">Totals</th>
+					<td>21,000</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<table width="550">
+			<tr height="20">
+				<td colspan="5" bgcolor="lightblue" color="white">colspan="5"</td>
+				<td rowspan="6" bgcolor="grey">rowspan="6"</td>
+				<td rowspan="2" bgcolor="green">rowspan="2"</td>
+			</tr>
+			<tr height="20">
+				<td rowspan="6" bgcolor="darkgreen">rowspan="6"</td>
+				<td colspan="4" rowspan="5" bgcolor="orange" width="250">
+					colspan="4"
+				</td>
+			</tr>
+			<tr height="20">
+				<td rowspan="6" bgcolor="yellow">rowspan="6"</td>
+			</tr>
+			<tr height="20"></tr>
+			<tr height="20"></tr>
+			<tr height="20"></tr>
+			<tr height="20">
+				<td colspan="5" bgcolor="purple">colspan="5"</td>
+			</tr>
+			<tr height="20">
+				<td colspan="2" bgcolor="red">colspan="2"</td>
+				<td colspan="4" bgcolor="blue">colspan="4"</td>
+			</tr>
+		</table>
+	</body>
+</html>

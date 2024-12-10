@@ -1,0 +1,19 @@
+h5 {
+	color: red;
+}
+div {
+	background-color: cyan;
+}
+.header {
+	background-color: fuchsia;
+	color: green;
+}
+.about {
+	background-color: lime;
+}
+.white-color {
+	color: white;
+}
+#cats-types {
+	font-size: 30px;
+}

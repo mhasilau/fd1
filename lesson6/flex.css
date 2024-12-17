@@ -1,0 +1,76 @@
+.wrapper {
+	display: flex;
+	height: 350px;
+	background-color: aquamarine;
+	/* flex-direction: row; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column; */
+	/* flex-direction: column-reverse; */
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: space-around; */
+	/* justify-content: space-between; */
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	/* align-items: flex-start; */
+	/* align-items: flex-end; */
+	align-items: center;
+	/* align-items: stretch; */
+	/* align-items: baseline; */
+}
+
+.green {
+	background-color: green;
+	/* align-self: flex-start; */
+	/* align-self: flex-end; */
+	/* align-self: center; */
+	/* align-self: stretch; */
+	align-self: baseline;
+	width: 30%;
+	min-width: 50px;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+	height: 50%;
+	min-height: 100px;
+}
+
+.yellow {
+	background-color: yellow;
+	height: 30px;
+}
+
+.purple {
+	background-color: purple;
+	height: 60px;
+}
+
+/* .w-100 {
+	width: 100%;
+} */
+
+/* .wrapper > div {
+	width: 100px;
+}
+
+.blue,
+.yellow {
+	color: azure;
+}
+
+#p1 + h3 {
+	color: blueviolet;
+}
+
+.green + .w-100 {
+	color: blueviolet;
+}
+
+.wrapper > .green p {
+	font-size: 30px;
+} */

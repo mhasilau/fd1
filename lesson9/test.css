@@ -1,0 +1,39 @@
+.page {
+}
+
+.header {
+}
+
+.content {
+	display: flex;
+}
+
+.avatar > img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.btns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.list {
+	display: flex;
+	width: 190px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.friend {
+	width: 50px;
+}
+
+.activity {
+	display: flex;
+}
+
+.my-photos {
+	display: flex;
+}
